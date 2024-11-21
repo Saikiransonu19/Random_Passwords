@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkblue;
+    color: white;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 550;
+}
+.container h1 span{
+    color: rgb(25, 163, 25);
+    padding-bottom: 7px;
+    border-bottom: 3px solid green;
+    font-size: 55px;
+
+}
+.Password{
+    width: 70%;
+    margin-top: 40px;
+    background-color: white;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border-radius: 6px;
+}
+.Password input{
+    border: none;
+    font-size: 20px;
+    outline: 0;
+    font-weight: bold;
+
+}
+.Password i{
+   font-size:30px ;
+   color: rgb(14, 112, 14);
+   cursor: pointer;
+}
+.generate{
+    padding:17px 30px ;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20;
+    color: white;
+    background: green;
+    cursor: pointer;
+}
